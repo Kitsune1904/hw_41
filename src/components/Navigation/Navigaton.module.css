@@ -1,0 +1,21 @@
+.navHolder > ul {
+  display: flex;
+  background-color: darkcyan;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: white;
+}
+
+a:hover, .active {
+  background-color: cadetblue;
+}
+

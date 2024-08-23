@@ -1,0 +1,49 @@
+.detailsHolder {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.detailsHolder > div > div {
+  width: 780px;
+  display: flex;
+  gap: 10px;
+
+}
+
+.detailsHolder > div {
+  background-color: #333333;
+  padding: 10px;
+}
+
+.maxBlock, .minBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maxBlock {
+  width: 600px;
+  height: 600px;
+}
+
+.minBlock {
+  width: 150px;
+  height: 150px;
+}
+
+.maxBlock > p {
+  font-size: 96px;
+  font-weight: bold;
+}
+
+.minBlock > p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+}

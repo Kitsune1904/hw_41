@@ -1,0 +1,9 @@
+.notesListHolder {
+    width: 100%;
+}
+
+
+.notesListHolder > p,
+.notesListHolder > h2 {
+    text-align: center;
+}
