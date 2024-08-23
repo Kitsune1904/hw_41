@@ -11,7 +11,7 @@ import {Notes} from "./components/Notes/Notes.jsx";
 function App() {
   return (
     <AlbumsProvider>
-      <BrowserRouter >
+      <BrowserRouter basename={'/hw_41'}>
         <Navigation></Navigation>
         <Routes>
           <Route path={'/'} element={<Main/>}></Route>
